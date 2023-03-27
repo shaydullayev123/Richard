@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+
+*,
+::after,
+::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.container{
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav__wrapper{
+  align-items: center;
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  border-radius: 0px;
+  justify-content: space-between;
+}
+
+.navbar__header{
+  display: flex;
+  margin: 0 144px;
+}
+
+.nav__list{
+  display: flex;
+}
+
+.nav__list-item{
+  padding: 40px 15px;
+  list-style: none;
+}
+
+.nav__list-item a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* .container{
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  border-radius: 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar{
+  display: flex;
+  max-width: 1152px;
+  justify-content: space-between;
+  margin: 0 144px;
+}
+
+.navbar__list{
+  display: flex;
+  width: 382px;
+}
+
+.navbar__list-item{
+  list-style: none;
+  margin: 40px 15px;
+  text-align: center;
+}
+
+.navbar__list-item a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.navbar img{
+  margin: 30px 0;
+  align-items: center;
+  width: 120px;
+  height: 43px;
+}
+
+.text__content{
+  position: relative;
+  padding-top: 200px;
+  padding-left: 144px;
+  padding-bottom: 277px;
+}
+
+.text__content h1{
+  font-weight: 400;
+  font-size: 70px;
+  color: #FFFFFF;
+}
+
+.text__content p{
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.hero__img{
+  position: absolute;
+  top: 110px;
+  right: 0px;
+  width: 562px;
+  height: 610px;
+} */
