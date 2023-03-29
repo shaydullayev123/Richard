@@ -1,112 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
 
-*,
-::after,
-::before{
-  padding: 0;
+ *,
+ ::after,
+ ::before{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Gothic A1', sans-serif;
-}
+/* .header{
+  width: 1440px;
+  height: 880px;
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+} */
+
+/* hero section  */
 
 .container{
-  display: flex;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .nav__wrapper{
-  align-items: center;
   background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-  border-radius: 0px;
-  justify-content: space-between;
 }
 
-.navbar__header{
+.navbar{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100px;
+  width: 1152px; */
   margin: 0 144px;
+}
+
+.navbar img{
+  height: 43px;
+  width: 120px;
+  margin: 30px 0;
 }
 
 .nav__list{
   display: flex;
+  /* height: 100px;
+  width: 382px; */
 }
 
 .nav__list-item{
-  padding: 40px 15px;
   list-style: none;
 }
 
 .nav__list-item a{
   text-decoration: none;
+  margin: 40px 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.nav__list-item a:hover{
+  color: rgb(221, 221, 221);
+}
+
+.section__hero{
+  background-image: url(../images/hero__bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 40px center;
+  padding: 170px 55px 277px 144px;
+}
+
+
+.section__hero h2{
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.section__hero p{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 10px 0 25px;
+}
+
+.btn{
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
-}
-
-/* .container{
-  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-  border-radius: 0px;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.navbar{
-  display: flex;
-  max-width: 1152px;
-  justify-content: space-between;
-  margin: 0 144px;
-}
-
-.navbar__list{
-  display: flex;
-  width: 382px;
-}
-
-.navbar__list-item{
-  list-style: none;
-  margin: 40px 15px;
+  line-height: 26px;
   text-align: center;
-}
-
-.navbar__list-item a{
+  color: #FFFFFF;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 15px;
-  color: #FFFFFF;
+  padding: 20px 40px;
+  background-color: #FC0A7E;
 }
 
-.navbar img{
-  margin: 30px 0;
-  align-items: center;
-  width: 120px;
-  height: 43px;
+.btn:hover{
+  background-color: #e8197d;
 }
 
-.text__content{
-  position: relative;
-  padding-top: 200px;
-  padding-left: 144px;
-  padding-bottom: 277px;
+.arrow__down{
+  display: flex;
+  background-image: url(../images/arrow_down.svg);
+  width: 9px;
+  height: 40px;
+  /* background-position: right -10px center; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 716px;
+  padding-bottom: 80px;
+  /* z-index: 1;
+  animation: arrowDown 3 ease infinite; */
 }
 
-.text__content h1{
-  font-weight: 400;
-  font-size: 70px;
-  color: #FFFFFF;
-}
 
-.text__content p{
-  font-weight: 400;
-  font-size: 25px;
-  color: #FFFFFF;
-}
+/* @keyframes arrowDown {
+  from {
+    top: 100px;
+  }
 
-.hero__img{
-  position: absolute;
-  top: 110px;
-  right: 0px;
-  width: 562px;
-  height: 610px;
+  to {
+    transform: ;
+  }
 } */
+
+/* end of hero section  */
+
+/* description section  */
+
+.description__section{
+  background-color: #1B1B1B;
+}
+
+.description__section h5{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  padding-top: 100px;
+}
+
+.description__section h2{
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 25px 400px 55px;
+}
+
+.description__section img{
+  margin: 0 120px;
+  width: 1000px;
+  /* height: 656px; */
+}
+
+/* end of description section  */
